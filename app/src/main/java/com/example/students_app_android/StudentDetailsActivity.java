@@ -49,9 +49,9 @@ public class StudentDetailsActivity extends AppCompatActivity {
         editStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(view.getContext(), EditStudentActivity.class);
-//                intent.putExtra("pos", pos);
-//                startActivity(intent);
+                Intent intent = new Intent(view.getContext(), EditStudentActivity.class);
+                intent.putExtra("pos", pos);
+                startActivity(intent);
             }
         });
     }

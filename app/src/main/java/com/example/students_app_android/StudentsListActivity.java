@@ -56,8 +56,8 @@ public class StudentsListActivity extends AppCompatActivity {
         addStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(view.getContext(), NewStudentActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(view.getContext(), NewStudentActivity.class);
+                startActivity(intent);
             }
         });
     }
